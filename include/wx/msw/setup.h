@@ -2,7 +2,7 @@
 // Name:        wx/msw/setup.h
 // Purpose:     Configuration for the library
 // Author:      Julian Smart
-// Modified by:
+// Modified by: Andrew Pratt
 // Created:     01/02/97
 // Copyright:   (c) Julian Smart
 // Licence:     wxWindows licence
@@ -10,6 +10,11 @@
 
 #ifndef _WX_SETUP_H_
 #define _WX_SETUP_H_
+
+
+#define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES 1
+#define _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT 1
+
 
 /* --- start common options --- */
 // ----------------------------------------------------------------------------
